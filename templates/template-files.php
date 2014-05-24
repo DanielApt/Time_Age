@@ -11,9 +11,12 @@ function get_header($title){
 	<title>$title</title>
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bigvideo.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/bigvideo.js"></script>
 	<script src="js/script.js"></script>
 </head>
 <body>

@@ -1,4 +1,8 @@
 $(function() {
+  //initialise video
+  var BV = new $.BigVideo();
+  BV.init();
+  BV.show('http://vjs.zencdn.net/v/oceans.mp4');
 
   //smoothly scroll to tags
   $('a[href*=#]:not([href=#])').click(function() {
