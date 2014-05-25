@@ -8,6 +8,13 @@ body {
 	height: 100%;
 	text-align:center;
 	position:relative;
+	display:table;
+	width:100%;
+}
+
+.screen .content {
+	display:table-cell;
+	vertical-align:middle;
 }
 
 .jumbotron {
@@ -23,13 +30,4 @@ body {
 .test {
 	background: rgba(0,0,0,0.7);
 	color:white;
-}
-
-.screen .content {
-	width:100%;
-	position:absolute;
-	top:50%;
-	-webkit-transform:translateY(-50%);
-	-moz-transform:translateY(-50%);
-	transform:translateY(-50%);
 }
