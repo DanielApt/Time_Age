@@ -7,9 +7,11 @@ $(function() {
     });
 
     $('#instructions').waypoint(function(direction) {
-        $(this).find('.content p').each(function(i) {
-            $(this).delay(i * 3000).slideDown('slow');
-        });
+        if (direction == 'down') {
+            $(this).find('.content p').hide().each(function(i) {
+                $(this).delay(i * 3000).slideDown('slow');
+            });
+        }
     });
 
     //smoothly scroll to tags
