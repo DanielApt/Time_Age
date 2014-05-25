@@ -2,7 +2,7 @@ $(function() {
   //initialise video
   var BV = new $.BigVideo();
   BV.init();
-  BV.show('http://vjs.zencdn.net/v/oceans.mp4', {ambient:true});
+  BV.show('http://av.vimeo.com/68441/738/26610212.mp4?token2=1401031501_9c8f4048e8ee8e3ec326a1ade8f1ddcb&aksessionid=d2ae273f252f8170&ns=4', {ambient:true});
 
   //smoothly scroll to tags
   $('a[href*=#]:not([href=#])').click(function() {
