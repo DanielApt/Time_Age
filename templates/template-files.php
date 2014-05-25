@@ -19,6 +19,7 @@ function get_header($title){
 	<script src="js/bigvideo.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 
