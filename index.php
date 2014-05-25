@@ -13,9 +13,10 @@ get_header();?>
 
 <div id="test" class="test jumbotron screen">
 	<div class="content">
-		<p>Tap the button whenever you think 20 seconds has past.</p>
-		<p>Please don't use a phone, watch, or other time-telling devices.</p>
-		<p>Still 6 remaining.</p>
+		<p>You will be asked to press a button <em>every 20 second</em>.</p>
+		<p>In total you will pres this button <em>6 times</em>.</p>
+		<p>Use your intuition, not a clock, watch or phone.</p>
+		<p>Good luck</p>
 	</div>
 </div>
 
