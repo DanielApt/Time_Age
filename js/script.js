@@ -4,7 +4,7 @@ $(function() {
   BV.init();
   BV.show('http://vjs.zencdn.net/v/oceans.mp4', {ambient:true});
 
-    $('#test').waypoint(function() {
+    $('#instructions').waypoint(function() {
         $(this).find('.content p').each(function(i) {
             $(this).delay(i * 3000).slideDown('slow');
         });

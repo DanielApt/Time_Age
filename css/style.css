@@ -10,6 +10,8 @@ body {
 	position:relative;
 	display:table;
 	width:100%;
+	background: black;
+	color:white;
 }
 
 .screen .content {
@@ -68,11 +70,6 @@ body {
 	margin-top:20px;
 }
 
-#test {
-	background: black;
-	color:white;
-}
-
-#test p {
+#instructions p {
 	display: none; /* we hide the instructions, and fade them in when we reach it */
 }
