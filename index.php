@@ -7,7 +7,7 @@ get_header();?>
 	<div class="content">
 		<h1>Discover your age</h1>
 		<p>We all perceive time in a different way lorem ipsum conspecetur.</p>
-		<p><a href="#test"><span class="glyphicon glyphicon-chevron-down"></span></a></p>
+		<a class="btn btn-lg btn-line btn-round" href="#test"><span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
 </div>
 
