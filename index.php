@@ -13,7 +13,7 @@ get_header();?>
 
 <div id="test" class="test jumbotron screen">
 	<div class="content">
-		<p>You will be asked to press a button <em>every 20 second</em>.</p>
+		<p>You will be asked to press a button <em>every 20 seconds</em>.</p>
 		<p>In total you will pres this button <em>6 times</em>.</p>
 		<p>Use your intuition, not a clock, watch or phone.</p>
 		<p>Good luck</p>
