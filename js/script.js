@@ -4,9 +4,11 @@ $(function() {
   BV.init();
   BV.show('http://vjs.zencdn.net/v/oceans.mp4', {ambient:true});
 
-  $('#test .content p').hide().each(function(i){
-    $(this).delay(i*3000).slideDown('slow');
-  });
+    $('#test').waypoint(function() {
+        $(this).find('.content p').each(function(i) {
+            $(this).delay(i * 3000).slideDown('slow');
+        });
+    });
 
   //smoothly scroll to tags
   $('a[href*=#]:not([href=#])').click(function() {

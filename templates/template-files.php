@@ -17,6 +17,7 @@ function get_header($title){
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/video.js"></script>
 	<script src="js/bigvideo.js"></script>
+	<script src="js/waypoints.min.js"></script>
 	<script src="js/script.js"></script>
 </head>
 <body>

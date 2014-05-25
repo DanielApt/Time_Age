@@ -72,3 +72,7 @@ body {
 	background: black;
 	color:white;
 }
+
+#test p {
+	display: none; /* we hide the instructions, and fade them in when we reach it */
+}
