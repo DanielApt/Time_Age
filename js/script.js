@@ -14,6 +14,12 @@ $(function() {
         }
     });
 
+    var count = 1;
+    $('#test-btn').click(function(){
+      $('.dot:nth-child(' + count + ')').addClass('dot-fill');
+      count++;
+    });
+
     //smoothly scroll to tags
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

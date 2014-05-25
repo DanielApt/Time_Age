@@ -23,7 +23,15 @@ get_header();?>
 
 <div id="test" class="test jumbotron screen">
 	<div class="content">
-		<button class="btn btn-lg btn-line">I think 20 seconds have passed</button>
+		<button id="test-btn" class="btn btn-lg btn-line">I think 20 seconds have passed</button>
+		<div class="dots">
+			<span class="dot dot-empty"></span>
+			<span class="dot dot-empty"></span>
+			<span class="dot dot-empty"></span>
+			<span class="dot dot-empty"></span>
+			<span class="dot dot-empty"></span>
+			<span class="dot dot-empty"></span>
+		</div>
 	</div>
 </div>
 
