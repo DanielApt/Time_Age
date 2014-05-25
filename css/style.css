@@ -51,6 +51,23 @@ body {
 	color:white;
 }
 
+.btn-line {
+	background:transparent;
+	border:2px solid white;
+	opacity:.5;
+	-webkit-transition:opacity 0.5s;
+	color: white;
+}
+
+.btn-line a, .btn-line a:hover {
+	color: white;
+}
+
+.btn-line:hover {
+	opacity:1;
+	color:white;
+}
+
 /* Sections */
 
 .intro {
