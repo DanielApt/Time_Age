@@ -36,8 +36,10 @@ $(function() {
       }
     });
 
-    function finishTest(){
-        alert('You finished the test');
+    function finishTest() {
+        $('html, body').delay(1000).animate({
+            scrollTop: $("#result").offset().top
+        }, 'slow');
     }
 
     //smoothly scroll to tags

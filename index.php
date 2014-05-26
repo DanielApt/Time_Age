@@ -45,4 +45,10 @@ get_header();?>
 	</div>
 </div>
 
+<div id="result" class="result jumbotron screen">
+	<div class="content">
+		<h1>You are 30 years old.</h1>
+	</div>
+</div>
+
 <?php get_footer();
