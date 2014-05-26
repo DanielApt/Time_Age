@@ -37,6 +37,16 @@ $(function() {
     });
 
     function finishTest() {
+        console.log('submitting test...');
+        $.ajax({
+            url:'result.php',
+            type:'post',
+            data: $('form').serialize(),
+            success:function(data){
+                console.log(data);
+            }
+        });
+
         $('html, body').delay(1000).animate({
             scrollTop: $("#result").offset().top
         }, 2000, function() {
