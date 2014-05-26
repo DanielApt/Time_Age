@@ -20,10 +20,14 @@ if(
 	$attempt5 = intval($_POST['attempt-5']) - intval($_POST['attempt-4']);
 	$attempt6 = intval($_POST['attempt-6']) - intval($_POST['attempt-5']);
 
-	//calculate the accuracy
-	$accuracy = round((1 - abs(1 - ($attempt1 + $attempt2 + $attempt3 + $attempt4 + $attempt5 + $attempt6)/120000)) * 100);
-	if($accuracy < 0){
-		$accuracy = 0;
+	$totalMs = 12000; //2 minutes
+
+	//calculate the accuracy (in factor (e.g 0.2)); 0 being nonexistent/very fast; 1 being accurate; 2 being very slow;
+	$accuracy = ($attempt1 + $attempt2 + $attempt3 + $attempt4 + $attempt5 + $attempt6)/$totalMs;
+
+	//don't allow accuracy to go above 200%
+	if($accuracy>200){
+		$accuracy = 2;
 	}
 
 	$results = array(
