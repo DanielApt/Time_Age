@@ -8,8 +8,6 @@ $(function() {
         ambient: true
     });
 
-    var ageGroups = ['Baby', 'Toddler', 'Young Child', 'Pre-Teen', 'Teenager', 'Twenty-Something', 'Thirty-Something', 'Fourty-Something', 'Fifty-Something', 'Retirement Worthy', 'Old Age Pensioner'];
-
     $('#instructions').waypoint(function(direction) {
         if (direction == 'down') {
             $(this).find('.content p').hide().each(function(i) {
@@ -48,9 +46,7 @@ $(function() {
             dataType:'json',
             data: $('form').serialize(),
             success:function(data){
-                accuracy = data.accuracy;
-                ageGroup = ageGroups[Math.floor((accuracy/2) * ageGroups.length)];
-                alert(ageGroup);
+                alert(data.age);
             }
         });
 

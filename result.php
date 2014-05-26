@@ -1,7 +1,8 @@
 <?php
 
 error_reporting(E_ALL);
-ini_set('display_errors', True);
+ini_set('display_errors',
+	True);
 
 if(
 	isset($_POST['starting-time']) &&
@@ -22,13 +23,15 @@ if(
 
 	$totalMs = 12000; //2 minutes
 
-	//calculate the accuracy (in factor (e.g 0.2)); 0 being nonexistent/very fast; 1 being accurate; 2 being very slow;
+	//calculate the accuracy (in percentage); 0% being nonexistent/very fast; 100% being accurate; 200% being very slow;
 	$accuracy = ($attempt1 + $attempt2 + $attempt3 + $attempt4 + $attempt5 + $attempt6)/$totalMs;
 
 	//don't allow accuracy to go above 200%
-	if($accuracy>200){
+	if($accuracy>2){
 		$accuracy = 2;
 	}
+
+	$age = round(85 * $accuracy/2);
 
 	$results = array(
 		'attempt-1' => $attempt1,
@@ -37,7 +40,7 @@ if(
 		'attempt-4' => $attempt4,
 		'attempt-5' => $attempt5,
 		'attempt-6' => $attempt6,
-		'accuracy' => $accuracy
+		'age' => $age
 	);
 
 	echo json_encode($results);
