@@ -27,6 +27,7 @@ body {
 
 .btn:active, .btn:focus {
 	outline: none;
+	color: inherit;
 }
 
 .btn-round {
