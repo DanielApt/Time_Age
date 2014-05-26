@@ -1,6 +1,8 @@
 $(function() {
-    //initialise video
-    var BV = new $.BigVideo();
+    //---------VARIABLES
+    var d;//stores the date / time
+
+    var BV = new $.BigVideo();//video
     BV.init();
     BV.show('http://vjs.zencdn.net/v/oceans.mp4', {
         ambient: true
@@ -14,9 +16,19 @@ $(function() {
         }
     });
 
+    $('#start-test').click(function(){
+        d = new Date();
+        $('#starting-time').val(d.getTime());
+    });
+
     var count = 1;
     $('#test-btn').click(function(){
+        //fill the dot which the user has just clicked for
       $('.dot:nth-child(' + count + ')').addClass('dot-fill');
+
+      //store the time
+      d = new Date();
+      $('#attempt-'+count).val(d.getTime());
       count++;
     });
 
