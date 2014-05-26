@@ -47,7 +47,8 @@ get_header();?>
 
 <div id="result" class="result jumbotron screen">
 	<div class="content">
-		<h1>You are 30 years old.</h1>
+		<h1>You are 34 years old</h1>
+		<p>Pretty accurate, but things are starting to slow down.</p>
 	</div>
 </div>
 

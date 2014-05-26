@@ -39,7 +39,10 @@ $(function() {
     function finishTest() {
         $('html, body').delay(1000).animate({
             scrollTop: $("#result").offset().top
-        }, 2000);
+        }, 2000, function() {
+            $('#result h1').slideDown('slow');
+            $('#result p').delay(3000).slideDown('slow');
+        });
     }
 
     //smoothly scroll to tags
