@@ -46,7 +46,8 @@ $(function() {
             dataType:'json',
             data: $('form').serialize(),
             success:function(data){
-                alert(data.age);
+                $('.age').text(data.age);
+                $('#result p').text(data.description);
             }
         });
 

@@ -33,6 +33,22 @@ if(
 
 	$age = round(85 * $accuracy/2);
 
+	if($age < 17){
+		$description = 'Time is nice ‘n‘ slow.';
+	}
+	if($age > 17 && $age < 34){
+		$description = 'You\'re experiencing time a bit slower than it is.';
+	}
+	if($age > 34 && $age < 51){
+		$description = 'Seeing time exactly as it is. Pretty darn accurate';
+	}
+	if($age > 51 && $age < 68){
+		$description = 'Time is started to speed up.';
+	}
+	if($age > 68){
+		$description = 'Time is fast like a rollercoaster.';
+	}
+
 	$results = array(
 		'attempt-1' => $attempt1,
 		'attempt-2' => $attempt2,
@@ -40,7 +56,8 @@ if(
 		'attempt-4' => $attempt4,
 		'attempt-5' => $attempt5,
 		'attempt-6' => $attempt6,
-		'age' => $age
+		'age' => $age,
+		'description' => $description
 	);
 
 	echo json_encode($results);
