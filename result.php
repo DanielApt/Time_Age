@@ -35,18 +35,23 @@ if(
 
 	if($age < 17){
 		$description = 'Time is nice ‘n‘ slow.';
+		$video = 'http://pdl.vimeocdn.com/10747/502/255631400.mp4?token2=1401149435_97c6c166238d149f9311c4b7f3da3b0a&aksessionid=bd30123490fab414';
 	}
 	if($age > 17 && $age < 34){
 		$description = 'You\'re experiencing time a bit slower than it is.';
+		$video = 'http://pdl.vimeocdn.com/33065/710/255798136.mp4?token2=1401149527_1da26d5fe2d29edfe94fa1c9f0dffd03&aksessionid=deb2d9f6fc46f9e5';
 	}
 	if($age > 34 && $age < 51){
 		$description = 'Seeing time exactly as it is. Pretty darn accurate';
+		$video = 'http://pdl.vimeocdn.com/47549/489/256348222.mp4?token2=1401149518_9d035d2ed6b076e15b164c61cdc8ca7d&aksessionid=fdce7c32c002f7d0';
 	}
 	if($age > 51 && $age < 68){
-		$description = 'Time is started to speed up.';
+		$description = 'Time is starting to speed up.';
+		$video = 'http://pdl.vimeocdn.com/55697/388/251600588.mp4?token2=1401149606_0f2c61ad76fe1502cb7ac79ead12d5a1&aksessionid=2fe5a911799120f1';
 	}
 	if($age > 68){
 		$description = 'Time is fast like a rollercoaster.';
+		$video = 'http://pdl.vimeocdn.com/37591/911/152995785.mp4?token2=1401150866_79971f4350c52b53eec4d596ccd9a27e&aksessionid=7ae6187e03dc06a0';
 	}
 
 	$results = array(
@@ -57,7 +62,8 @@ if(
 		'attempt-5' => $attempt5,
 		'attempt-6' => $attempt6,
 		'age' => $age,
-		'description' => $description
+		'description' => $description,
+		'video' => $video
 	);
 
 	echo json_encode($results);
