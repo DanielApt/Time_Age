@@ -26,7 +26,17 @@ if(
 		$accuracy = 0;
 	}
 
-	echo $accuracy;
+	$results = array(
+		'attempt-1' => $attempt1,
+		'attempt-2' => $attempt2,
+		'attempt-3' => $attempt3,
+		'attempt-4' => $attempt4,
+		'attempt-5' => $attempt5,
+		'attempt-6' => $attempt6,
+		'accuracy' => $accuracy
+	);
+
+	echo json_encode($results);
 
 	die();
 }else{

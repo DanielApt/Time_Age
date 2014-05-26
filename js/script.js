@@ -41,6 +41,7 @@ $(function() {
         $.ajax({
             url:'result.php',
             type:'post',
+            dataType:'json',
             data: $('form').serialize(),
             success:function(data){
                 console.log(data);
