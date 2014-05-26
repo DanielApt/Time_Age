@@ -21,16 +21,24 @@ $(function() {
         $('#starting-time').val(d.getTime());
     });
 
-    var count = 1;
+    var count = 0;
     $('#test-btn').click(function(){
+        count++;
         //fill the dot which the user has just clicked for
       $('.dot:nth-child(' + count + ')').addClass('dot-fill');
 
       //store the time
       d = new Date();
       $('#attempt-'+count).val(d.getTime());
-      count++;
+
+      if(count === 6){
+        finishTest();
+      }
     });
+
+    function finishTest(){
+        alert('You finished the test');
+    }
 
     //smoothly scroll to tags
     $('a[href*=#]:not([href=#])').click(function() {
