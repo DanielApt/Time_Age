@@ -4,7 +4,7 @@ $(function() {
 
     var BV = new $.BigVideo();//video
     BV.init();
-    BV.show('http://vjs.zencdn.net/v/oceans.mp4', {
+    BV.show('http://av.vimeo.com/38653/252/137526877.mp4?token2=1401122784_a4c397517a0038370019af4b72f1f1f2&aksessionid=cccf0b8f6a07dc35', {
         ambient: true
     });
 
