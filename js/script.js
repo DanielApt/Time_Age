@@ -4,7 +4,7 @@ $(function() {
 
     var BV = new $.BigVideo();//video
     BV.init();
-    BV.show('http://vjs.zencdn.net/v/oceans.mp4', {
+    BV.show('http://iamapt.com/files/Clocks.mp4', {
         ambient: true
     });
 
