@@ -11,7 +11,7 @@ $(function() {
     $('#instructions').waypoint(function(direction) {
         if (direction == 'down') {
             $(this).find('.content p').hide().each(function(i) {
-                $(this).delay(i * 3000).slideDown('slow');
+                $(this).delay(i * 2000).slideDown('slow');
             });
         }
     });
@@ -46,7 +46,7 @@ $(function() {
             dataType:'json',
             data: $('form').serialize(),
             success:function(data){
-                //BV.show(data.video, {ambient:true});
+                BV.show(data.video, {ambient:true});
                 $('.age').text(data.age);
                 $('#result p').text(data.description);
             }
