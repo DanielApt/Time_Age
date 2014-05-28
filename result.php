@@ -33,26 +33,34 @@ if(
 
 	$age = round(85 * $accuracy/2);
 
-	if($age < 17){
-		$description = 'Time is nice ‘n’ slow.';
+	if($age < 8){
+		$description = 'Time Is Barely Moving At All';
 		$video = 'http://iamapt.com/files/WinterTraffic.mp4';
-	}
-	if($age > 17 && $age < 34){
-		$description = 'You\'re experiencing time a bit slower than it is.';
+		}
+	if($age > 9 && $age < 18){
+		$description = 'Time Is Moving At A Snail Pace';
 		$video  = 'http://iamapt.com/files/BirdsOnThePost.mp4';
 	}
-	if($age > 34 && $age < 51){
-		$description = 'Seeing time exactly as it is. Pretty darn accurate';
+	if($age > 19 && $age < 34){
+		$description = 'You\'re experiencing time a little slower than it is.';
+		$video  = 'http://iamapt.com/files/BirdsOnThePost.mp4';
+	}
+	if($age > 35 && $age < 51){
+		$description = 'Almost Spot On, Well Done You';
 		$video = 'http://iamapt.com/files/FroggerHighway.mp4';
 	}
-	if($age > 51 && $age < 68){
+	if($age > 52 && $age < 68){
 		$description = 'Time is starting to speed up.';
 		$video = 'http://iamapt.com/files/NycTraffic.mp4';
 	}
-	if($age > 68){
+	if($age > 69 && $age < 88){
 		$description = 'Time moves fast for you, maybe you should try something new.';
 		$video = 'http://iamapt.com/files/NightTraffic.mp4';
 	}
+	if($age > 89){
+		$description = 'Life is a blur, you probably already read this ages ago';
+		$video = 'http://iamapt.com/files/NightTraffic.mp4';
+
 
 	$results = array(
 		'attempt-1' => $attempt1,
