@@ -11,7 +11,7 @@ $(function() {
     $('#instructions').waypoint(function(direction) {
         if (direction == 'down') {
             $(this).find('.content p').hide().each(function(i) {
-                $(this).delay(i * 2000).slideDown('slow');
+                $(this).delay(i * 2500).slideDown('slow');
             });
         }
     });

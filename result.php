@@ -35,7 +35,7 @@ if(
 
 	if($age < 17){
 		$description = 'Time is nice ‘n’ slow.';
-		$video = 'http://iamapt.com/WinterTraffic.mp4';
+		$video = 'http://iamapt.com/files/WinterTraffic.mp4';
 	}
 	if($age > 17 && $age < 34){
 		$description = 'You\'re experiencing time a bit slower than it is.';
@@ -50,7 +50,7 @@ if(
 		$video = 'http://iamapt.com/files/NycTraffic.mp4';
 	}
 	if($age > 68){
-		$description = 'Time is fast like a rollercoaster.';
+		$description = 'Time moves fast for you, maybe you should try something new.';
 		$video = 'http://iamapt.com/files/NightTraffic.mp4';
 	}
 

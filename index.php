@@ -13,10 +13,11 @@ get_header();?>
 
 <div id="instructions" class="instructions jumbotron screen">
 	<div class="content">
-		<p>You will be asked to press a button <em>every 20 seconds</em>.</p>
-		<p>In total you will pres this button <em>6 times</em>.</p>
-		<p>Use your intuition, not a clock, watch or phone.</p>
-		<p><a href="#test" id="start-test" class="btn btn-lg btn-line">Start test</a></p>
+		<p>You will be asked to press a button every time you think 20 seconds has passed.</p>
+		<p>You will be asked to do this multiple times.</p>
+		<p>At the end we will determine your age based on how you perceive time.</p>
+		<p>Trust your intuition, and do not use a clock, watch or phone.</p>
+		<p><a href="#test" id="start-test" class="btn btn-lg btn-line">Begin test</a></p>
 	</div>
 </div>
 
