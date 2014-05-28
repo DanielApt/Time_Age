@@ -60,7 +60,7 @@ if(
 	if($age > 89){
 		$description = 'Life is a blur, you probably already read this ages ago';
 		$video = 'http://iamapt.com/files/NightTraffic.mp4';
-
+	}
 
 	$results = array(
 		'attempt-1' => $attempt1,
