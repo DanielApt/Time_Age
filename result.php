@@ -34,24 +34,24 @@ if(
 	$age = round(85 * $accuracy/2);
 
 	if($age < 17){
-		$description = 'Time is nice ‘n‘ slow.';
-		$video = 'https://archive.org/download/WinterTrafficStockFootage/Winter%20Traffic%20H264.mp4';
+		$description = 'Time is nice ‘n’ slow.';
+		$video = 'http://iamapt.com/WinterTraffic.mp4';
 	}
 	if($age > 17 && $age < 34){
 		$description = 'You\'re experiencing time a bit slower than it is.';
-		$video  = 'http://www.archive.org/download/BirdsOnThePostroyaltyFreeStockVideo/BirdsOnThePost.mp4';
+		$video  = 'http://iamapt.com/files/BirdsOnThePost.mp4';
 	}
 	if($age > 34 && $age < 51){
 		$description = 'Seeing time exactly as it is. Pretty darn accurate';
-		$video = 'http://www.archive.org/download/FroggerHighway/FroggerHighway.mp4';
+		$video = 'http://iamapt.com/files/FroggerHighway.mp4';
 	}
 	if($age > 51 && $age < 68){
 		$description = 'Time is starting to speed up.';
-		$video = 'http://archive.org/download/NycTrafficTimeLapse/NycTrafficH264.mp4';
+		$video = 'http://iamapt.com/files/NycTraffic.mp4';
 	}
 	if($age > 68){
 		$description = 'Time is fast like a rollercoaster.';
-		$video = 'http://archive.org/download/NightTrafficTimeLapse/NightTrafficH264.mp4';
+		$video = 'http://iamapt.com/files/NightTraffic.mp4';
 	}
 
 	$results = array(
