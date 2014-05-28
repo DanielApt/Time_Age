@@ -31,12 +31,15 @@ if(
 		$accuracy = 2;
 	}
 
-	$age = round(85 * $accuracy/2);
+	$age = round(85 - 85 * $accuracy/2);
+
+	$description = '';
+	$video = '';
 
 	if($age < 8){
 		$description = 'Time Is Barely Moving At All';
 		$video = 'http://iamapt.com/files/WinterTraffic.mp4';
-		}
+	}
 	if($age > 9 && $age < 18){
 		$description = 'Time Is Moving At A Snail Pace';
 		$video  = 'http://iamapt.com/files/BirdsOnThePost.mp4';
@@ -63,12 +66,7 @@ if(
 	}
 
 	$results = array(
-		'attempt-1' => $attempt1,
-		'attempt-2' => $attempt2,
-		'attempt-3' => $attempt3,
-		'attempt-4' => $attempt4,
-		'attempt-5' => $attempt5,
-		'attempt-6' => $attempt6,
+		'accuracy' => $accuracy,
 		'age' => $age,
 		'description' => $description,
 		'video' => $video

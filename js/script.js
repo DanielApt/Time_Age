@@ -46,6 +46,7 @@ $(function() {
             dataType:'json',
             data: $('form').serialize(),
             success:function(data){
+                console.log(data);
                 BV.show(data.video, {ambient:true});
                 $('.age').text(data.age);
                 $('#result p').text(data.description);
