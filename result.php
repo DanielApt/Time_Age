@@ -49,11 +49,11 @@ if(
 	}
 	if($age > 9 && $age < 18){
 		$description = 'Time Is Moving At A Snail Pace';
-		$video  = 'http://iamapt.com/files/BirdsOnThePost.mp4';
+		$video  = 'http://iamapt.com/files/videos/Pages.mp4';
 	}
 	if($age > 19 && $age < 34){
 		$description = 'You\'re experiencing time a little slower than it is.';
-		$video  = 'http://iamapt.com/files/BirdsOnThePost.mp4';
+		$video  = 'http://iamapt.com/files/videos/Elevator.mp4';
 	}
 	if($age > 35 && $age < 51){
 		$description = 'Almost Spot On, Well Done You';
@@ -65,11 +65,11 @@ if(
 	}
 	if($age > 69 && $age < 88){
 		$description = 'Time moves fast for you, maybe you should try something new.';
-		$video = 'http://iamapt.com/files/NightTraffic.mp4';
+		$video = 'http://iamapt.com/files/videos/LED-Type.mp4';
 	}
 	if($age > 89){
 		$description = 'Life is a blur, you probably already read this ages ago';
-		$video = 'http://iamapt.com/files/NightTraffic.mp4';
+		$video = 'http://iamapt.com/files/videos/Led-Type.mp4';
 	}
 
 	$results = array(
