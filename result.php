@@ -52,7 +52,7 @@ if(
 		$video  = 'http://iamapt.com/files/videos/Pages.mp4';
 	}
 	if($age > 19 && $age < 34){
-		$description = 'You\'re experiencing time a little slower than it is.';
+		$description = 'Not bad, but time is moving a little faster than it should be';
 		$video  = 'http://iamapt.com/files/videos/Elevator.mp4';
 	}
 	if($age > 35 && $age < 51){

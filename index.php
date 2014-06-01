@@ -5,8 +5,8 @@ get_header();?>
 
 <div class="intro jumbotron screen">
 	<div class="content">
-		<h1>Discover your age</h1>
-		<p>We all perceive time in a different way, discover your <em>Time Perception Age</em>.</p>
+		<h1>Discover your time perception age</h1>
+		<p>We all perceive time a little differently, take our test and find out how you're experiencing time.</p>
 		<a class="btn btn-lg btn-line btn-round" href="#instructions"><span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
 </div>
