@@ -31,7 +31,14 @@ if(
 		$accuracy = 2;
 	}
 
-	$age = round(85 - 85 * $accuracy/2);
+	$age = round(pow(2-$accuracy, 2)/0.04);
+
+	if($age > 89){
+		$age = 90;
+	}
+	if($age < 1){
+		$age = 1;
+	}
 
 	$description = '';
 	$video = '';
