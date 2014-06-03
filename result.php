@@ -77,7 +77,7 @@ if(
 	}
 	if($age > 89){
 		$description = 'Life is a blur, you probably already read this ages ago';
-		$video = 'http://iamapt.com/files/videos/Led-Type.mp4';
+		$video = 'http://iamapt.com/files/videos/LED-Type.mp4';
 	}
 
 	$results = array(
