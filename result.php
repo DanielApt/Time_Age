@@ -44,39 +44,39 @@ if(
 	$video = '';
 
 	if($age <= 8){
-		$description = 'Time Is Barely Moving At All';
+		$description = 'Time appears to barely be moving at all for you.';
 		$video = 'http://iamapt.com/files/videos/Wheel-Slow.mp4';
 	}
 	if($age > 8 && $age <= 18){
-		$description = 'Time Is Moving At A Snail Pace';
+		$description = 'Snail pace might be too generous an expression for how time seems to you.';
 		$video  = 'http://iamapt.com/files/videos/Pages.mp4';
 	}
 	if($age > 18 && $age <= 23){
-		$description = 'Not bad, but time is moving a little faster than it should be';
+		$description = 'Time seems to be going by at a leisurely pace.';
 		$video  = 'http://iamapt.com/files/videos/Elevator.mp4';
 	}
 	if($age > 23 && $age <= 27){
-		$description = 'Almost Spot On, Well Done You';
+		$description = 'Nothing to report, you see time pretty much as it is.';
 		$video = 'http://iamapt.com/files/videos/Walking.mp4';
 	}
 	if($age > 28 && $age <= 31){
-		$description = 'Time is starting to speed up.';
+		$description = 'Time is going past just a little faster than it should be.';
 		$video = 'http://iamapt.com/files/videos/Escalator.mp4';
 	}
 	if($age > 31 && $age <= 51){
-		$description = 'Time is starting to speed up.';
+		$description = 'Time seems to be chugging away at quite a pace.';
 		$video = 'http://iamapt.com/files/videos/Hub.mp4';
 	}
 	if($age > 51 && $age <= 68){
-		$description = 'Time is starting to speed up.';
+		$description = 'You seem to be experiencing life in the fast lane.';
 		$video = 'http://iamapt.com/files/videos/Gearset.mp4';
 	}
 	if($age > 68 && $age < 88){
-		$description = 'Time moves fast for you, maybe you should try something new.';
+		$description = 'Bullet trains move slower than you, life appears to be whizzing past.';
 		$video = 'http://iamapt.com/files/videos/LED-Type.mp4';
 	}
 	if($age > 89){
-		$description = 'Life is a blur, you probably already read this ages ago';
+		$description = 'Life is a blur, you probably already read this ages ago.';
 		$video = 'http://iamapt.com/files/videos/LED-Type.mp4';
 	}
 
