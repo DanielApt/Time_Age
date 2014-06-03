@@ -43,8 +43,6 @@ if(
 	$description = '';
 	$video = '';
 
-	$age = 69;
-
 	if($age <= 8){
 		$description = 'Time Is Barely Moving At All';
 		$video = 'http://iamapt.com/files/videos/Wheel-Slow.mp4';
