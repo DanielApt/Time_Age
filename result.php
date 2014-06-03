@@ -43,33 +43,35 @@ if(
 	$description = '';
 	$video = '';
 
-	if($age < 8){
+	$age = 69;
+
+	if($age <= 8){
 		$description = 'Time Is Barely Moving At All';
-		$video = 'http://iamapt.com/files/WinterTraffic.mp4';
+		$video = 'http://iamapt.com/files/videos/Wheel-Slow.mp4';
 	}
-	if($age > 8 && $age < 18){
+	if($age > 8 && $age <= 18){
 		$description = 'Time Is Moving At A Snail Pace';
 		$video  = 'http://iamapt.com/files/videos/Pages.mp4';
 	}
-	if($age > 18 && $age < 23){
+	if($age > 18 && $age <= 23){
 		$description = 'Not bad, but time is moving a little faster than it should be';
 		$video  = 'http://iamapt.com/files/videos/Elevator.mp4';
 	}
-	if($age > 23 && $age < 27){
+	if($age > 23 && $age <= 27){
 		$description = 'Almost Spot On, Well Done You';
-		$video = 'http://iamapt.com/files/FroggerHighway.mp4';
+		$video = 'http://iamapt.com/files/videos/Walking.mp4';
 	}
-	if($age > 28 && $age < 31){
+	if($age > 28 && $age <= 31){
 		$description = 'Time is starting to speed up.';
-		$video = 'http://iamapt.com/files/NycTraffic.mp4';
+		$video = 'http://iamapt.com/files/videos/Escalator.mp4';
 	}
-	if($age > 31 && $age < 51){
+	if($age > 31 && $age <= 51){
 		$description = 'Time is starting to speed up.';
-		$video = 'http://iamapt.com/files/NycTraffic.mp4';
+		$video = 'http://iamapt.com/files/videos/Hub.mp4';
 	}
-	if($age > 51 && $age < 68){
+	if($age > 51 && $age <= 68){
 		$description = 'Time is starting to speed up.';
-		$video = 'http://iamapt.com/files/NycTraffic.mp4';
+		$video = 'http://iamapt.com/files/videos/Gearset.mp4';
 	}
 	if($age > 68 && $age < 88){
 		$description = 'Time moves fast for you, maybe you should try something new.';
