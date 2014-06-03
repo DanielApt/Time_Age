@@ -21,7 +21,7 @@ if(
 	$attempt5 = intval($_POST['attempt-5']) - intval($_POST['attempt-4']);
 	$attempt6 = intval($_POST['attempt-6']) - intval($_POST['attempt-5']);
 
-	$totalMs = 12000; //2 minutes
+	$totalMs = 120000; //2 minutes
 
 	//calculate the accuracy (in percentage); 0% being nonexistent/very fast; 100% being accurate; 200% being very slow;
 	$accuracy = ($attempt1 + $attempt2 + $attempt3 + $attempt4 + $attempt5 + $attempt6)/$totalMs;
